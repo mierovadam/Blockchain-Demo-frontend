@@ -1,5 +1,5 @@
 import { BeatLoader } from "react-spinners";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Block.Module.css";
+import style from "../style/Block.Module.css";
 import React, { useEffect, useState } from "react";
 import Block from "./Block";
 import { css } from "@emotion/react";

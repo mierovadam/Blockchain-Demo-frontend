@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import style from '/Users/adammierov/Desktop/blockchain-fronted/src/style/Block.Module.css';
+import style from "../style/Block.Module.css";
 import sha256 from "crypto-js/sha256";
 
 function Hash() {

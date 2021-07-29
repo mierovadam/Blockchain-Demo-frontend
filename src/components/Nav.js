@@ -1,5 +1,5 @@
 import React from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/App.css";
+import style from "../style/App.css";
 import { Link } from "react-router-dom";
 import BlockchainImage from "/Users/adammierov/Desktop/blockchain-fronted/src/blockchain.png";
 

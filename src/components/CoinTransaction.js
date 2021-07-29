@@ -1,6 +1,5 @@
 import React from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Keys.Module.css";
-
+import style from "../style/Keys.Module.css";
 function CoinTransaction({ dollar, from, to, prop }) {
 
 

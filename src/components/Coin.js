@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Block.Module.css";
+import style from "../style/Block.Module.css";
 function Coin({ initDollar, initTo, propCoin }) {
   const [dollar, setDollar] = useState(initDollar);
   const [to, setTo] = useState(initTo);

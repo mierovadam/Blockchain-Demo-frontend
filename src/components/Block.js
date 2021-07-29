@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Block.Module.css";
+import style from "../style/Block.Module.css";
 import Tx from "./Tx";
 import Coin from "./Coin";
 import TxKeys from "./TxKeys";
@@ -86,9 +86,7 @@ const Block = ({
         tokens[i].fromPublic = args[2];
         tokens[i].toPublic = args[3];
         tokens[i].signature = args[4];
-        console.log(tokens[i].signature);
       }
-
       str +=
         tokens[i].amount +
         tokens[i].fromPublic +
@@ -111,7 +109,6 @@ const Block = ({
     } else {
       setFlagChangeField(false);
     }
-
   }, [hash]);
 
   const handleChangedFields = (e) => {
@@ -132,7 +129,6 @@ const Block = ({
       e.preventDefault();
       setLoading(true);
     }
-    console.log("send To Server : " + blockData);
     axios
       .get("http://localhost:3001/mineblock", {
         params: {

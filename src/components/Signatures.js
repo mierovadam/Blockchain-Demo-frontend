@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Keys.Module.css";
+import style from "../style/Keys.Module.css";
 import * as secp from "noble-secp256k1";
 import { SHA256 } from "crypto-js";
 

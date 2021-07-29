@@ -1,5 +1,5 @@
 import React from "react";
-import style from "/Users/adammierov/Desktop/blockchain-fronted/src/style/Block.Module.css";
+import style from "../style/Block.Module.css";
 import Blockchain from "./Blockchain";
 
 function Tokens() {
