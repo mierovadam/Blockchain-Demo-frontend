@@ -1,0 +1,86 @@
+    .border {
+        font-size: 1.6rem;
+        display: grid;
+        place-items: center;
+        min-height: 200px;
+        background-color: rgba(11, 156, 49, 0.4);
+        border: 5px solid;
+        border-image: ( black)1;
+    }
+    
+    .spinner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redborder {
+        background-color: rgba(255, 0, 0, 0.6);
+        font-size: 1.6rem;
+        display: grid;
+        place-items: center;
+        min-height: 200px;
+        border: 5px solid;
+        border-image: ( black)1;
+    }
+    
+    .col {
+        padding: 1rem;
+    }
+    
+    .table {
+        padding: 0.5rem;
+        border-spacing: 0.5rem 0.25rem;
+    }
+    
+    .Row {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: space-between;
+        overflow-y: auto;
+    }
+    
+    .colBlockchain {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        justify-content: space-between;
+    }
+    
+    .labelData {
+        float: left;
+        font-weight: bold;
+    }
+    
+    .peers {
+        text-align: start;
+    }
+    
+    .textareaData {
+        margin: 0px 40px 0px 0px;
+        height: 214px;
+        width: 700px;
+    }
+    
+    .textareaHash {
+        margin: 0px 40px 0px 0px;
+        height: 50px;
+        width: 700px;
+    }
+    
+    .textareaTx {
+        margin: 0px 40px 0px 0px;
+        height: 30px;
+        width: 100px;
+    }
+    
+    .mineButton {
+        background: rgb(73, 79, 82);
+        color: white;
+        border-radius: 14px;
+        font-size: 40px;
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }

@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+}
+
+.Footer {
+    text-align: center;
+    background: rgb(73, 79, 82);
+    color: honeydew;
+    min-height: 3vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+}
+
+.navStyle {
+    color: "white"
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+}
+
+li a {
+    float: left;
+    display: flex;
+    text-align: center;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.image {
+    max-width: 90px;
+    max-height: 90px;
+    padding: 1rem;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.nav-links a:active {
+    background-color: #04AA6D;
+}

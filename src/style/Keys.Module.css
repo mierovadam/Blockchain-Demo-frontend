@@ -1,0 +1,142 @@
+  .labelData {
+      float: left;
+      font-weight: bold;
+  }
+  
+  .labelTable {
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  
+  .pageContainer {
+      display: inline-flex;
+      justify-content: space-between;
+      flex-direction: row;
+      column-gap: 1.5rem;
+  }
+  
+  .border {
+      font-size: 1.6rem;
+      display: grid;
+      place-items: center;
+      min-height: 200px;
+      background-color: rgba(11, 156, 49, 0.4);
+      border: 5px solid;
+      border-image: ( black)1;
+  }
+  
+  .redborder {
+      background-color: rgba(255, 0, 0, 0.6);
+      font-size: 1.6rem;
+      display: grid;
+      place-items: center;
+      min-height: 200px;
+      border: 5px solid;
+      border-image: ( black)1;
+  }
+  
+  .borderSignatures {
+      font-size: 1rem;
+      display: grid;
+      place-items: center;
+      flex-direction: column;
+      min-height: 10rem;
+      background-color: rgba(128, 128, 128, 0.356);
+      border: 0.2rem solid;
+      border-image: ( black)1;
+  }
+  
+  .button {
+      background-color: gray;
+      border-radius: 5%;
+      border: 0.33rem double ( black)1;
+      color: white;
+      padding: 0.2rem 1rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      min-width: 1rem;
+      min-height: 2.3rem;
+  }
+  
+  .button:hover {
+      background-color: lightslategray;
+  }
+  
+  .textareaSmallest {
+      width: 100px;
+      height: 30px;
+      margin-bottom: 1rem;
+  }
+  
+  .textareaSmaller {
+      min-height: 2rem;
+      min-width: 30rem;
+      margin-bottom: 1rem;
+  }
+  
+  .textareaSmallerRed {
+      min-height: 2rem;
+      min-width: 30rem;
+      margin-bottom: 1rem;
+      color: red;
+  }
+  
+  .textareaMedium {
+      min-height: 2rem;
+      min-width: 35rem;
+  }
+  
+  .textareaBigger {
+      min-height: 10rem;
+      min-width: 30rem;
+  }
+  
+  .signButton {
+      background-color: rgb(104, 104, 235);
+      border: 0.33rem double ( black)1;
+      color: white;
+      padding: 0.2rem 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      min-width: 10rem;
+      min-height: 2.3rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  .col {
+      padding: 1rem;
+  }
+  
+  .table {
+      padding: 1rem;
+      border-spacing: 1rem 1rem;
+  }
+  
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+  }
+  
+  @media all and (max-width:500px) {
+      .textareaSmaller {
+          min-height: 1rem;
+          min-width: 5rem;
+      }
+      .textareaMedium {
+          min-height: 1rem;
+          min-width: 15rem;
+      }
+  }
+  
+  @media all and (max-width:700px) {
+      .pageContainer {
+          display: flex;
+          flex-direction: column;
+          margin-left: 1rem;
+          margin-right: 1rem;
+          column-gap: 1.5rem;
+          justify-content: space-between;
+      }
+  }
